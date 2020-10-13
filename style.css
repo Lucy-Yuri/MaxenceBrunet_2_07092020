@@ -288,6 +288,7 @@ button a:hover
 section
 {
     display: flex;
+    justify-content: space-between;
 }
 
 .stars 
@@ -453,7 +454,6 @@ aside
     border: 1px solid #F2F2F2;
     border-radius: 25px;
     padding: 25px;
-    margin: auto;
     height: 650px;
 }
 
@@ -535,9 +535,6 @@ aside a
 }
 
 
-
-
-
 #titre_aside i
 {
     font-size: 1.3em;
@@ -560,11 +557,107 @@ aside a
     justify-content: space-between;
 }
 
-#activites img
+#panneau_activite_1
 {
-    width: 330px;
+    box-shadow: 0px 0px 10px #bbbbbb;
+    border-radius: 25px 25px 25px 25px;
+}
 
+#panneau_activite_2
+{
+    box-shadow: 0px 0px 10px #bbbbbb;
+    border-radius: 25px 25px 25px 25px;
+}
+
+#panneau_activite_3
+{
+    box-shadow: 0px 0px 10px #bbbbbb;
+    border-radius: 25px 25px 25px 25px;
+}
+
+
+#panneau_activite_4
+{
+    box-shadow: 0px 0px 10px #bbbbbb;
+    border-radius: 25px 25px 25px 25px;
+}
+
+#panneau_activite_5
+{
+    box-shadow: 0px 0px 10px #bbbbbb;
+    border-radius: 25px 25px 25px 25px;
+}
+
+#panneau_activite_6
+{
+    box-shadow: 0px 0px 10px #bbbbbb;
+    border-radius: 25px 25px 25px 25px;
+}
+
+#panneau_activite_img_1
+{
+    background: url("images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 320px;
     border-radius: 25px 25px 0px 0px;
+}
+
+#panneau_activite_img_2
+{
+    background: url("images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 220px;
+    width: 320px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+#panneau_activite_img_3
+{
+    background: url("images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    width: 320px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+#panneau_activite_img_4
+{
+    background: url("images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 320px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+#panneau_activite_img_5
+{
+    background: url("images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 185px;
+    width: 320px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+#panneau_activite_img_6
+{
+    background: url("images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 185px;
+    width: 320px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.petits_panneaux
+{
+    box-shadow: 0px 0px 10px #bbbbbb;
+    border-radius: 25px 25px 25px 25px;
 }
 
 #activites a
@@ -590,6 +683,7 @@ aside a
 .grands_panneaux img
 {
     height: 500px;
+    
 }
 
 .petits_panneaux img
