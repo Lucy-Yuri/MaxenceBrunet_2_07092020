@@ -484,15 +484,14 @@ aside
     background-color: white;
     margin-top: 25px;
     box-shadow: 0px 0px 10px #bbbbbb;
-
-
-
     display: flex;
 
 }
 
-.panneau_aside figure
+aside a
 {
+    text-decoration: none;
+    color: #181818;
     display: flex;
 }
 
@@ -501,6 +500,10 @@ aside
     background: url("images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
     background-position: center;
     background-size: cover;
+    width: 145px;
+    height: 150px;
+    border-radius: 25px 0px 0px 25px;
+    margin: 5px;
 }
 
 #panneau_aside_img_2
@@ -508,6 +511,10 @@ aside
     background: url("images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
     background-position: center;
     background-size: cover;
+    width: 208px;
+    height: 150px;
+    border-radius: 25px 0px 0px 25px;
+    margin: 5px;
 }
 
 #panneau_aside_img_3
@@ -515,12 +522,16 @@ aside
     background: url("images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
     background-position: center;
     background-size: cover;
+    width: 154px;
+    height: 150px;
+    border-radius: 25px 0px 0px 25px;
+    margin: 5px;
 }
 
-aside a
+.description_aside
 {
-    text-decoration: none;
-    color: #181818;
+    padding: 15px;
+
 }
 
 
