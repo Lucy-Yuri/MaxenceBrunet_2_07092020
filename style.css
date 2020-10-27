@@ -18,7 +18,7 @@ body h3
 
 main
 {
-    width: 1500px;
+    width: 95%;
     margin: auto;
 }
 
@@ -33,6 +33,9 @@ header
     align-items: flex-start;
 
     justify-content: space-between;
+
+    width: 100%;
+
 }
 
 
@@ -54,8 +57,7 @@ header
 
 #slogan
 {
-    line-height: 0.5em;
-
+    width: 100%;
 }
 
 #slogan h2
@@ -198,17 +200,21 @@ form
     display: flex;
     margin-top: 25px;
     justify-content: space-between;
-    width: 885px;
+    width: 45%;
     height: 60px;
     align-items: center;
+}
+
+#filtres h3
+{
+    margin-right: 15px;
 }
 
 #boutons_filtres
 {
     justify-content: space-between;
-    width: 800px;
+    width: 1300px;
     display: flex;
-
 }
 
 button
@@ -316,21 +322,21 @@ article
     border: 1px solid #F2F2F2;
     border-radius: 25px;
     padding: 25px;
-    height: 650px;
-    width: 65%;
+    height: auto;
+    width: 65%
 }
 
 .panneau_article
 {
 
-    width: 28%;
+    width: 300px;
     border: 1px solid white;
     border-radius: 30px;
     background-color: white;
     margin: auto;
     margin-bottom: 30px;
     box-shadow: 0px 0px 10px #bbbbbb;
-    height: 230px;
+    height: 28%;
     display: flex;
 }
 
@@ -501,8 +507,8 @@ aside a
     background-position: center;
     background-size: cover;
     width: 145px;
-    height: 150px;
-    border-radius: 25px 0px 0px 25px;
+    height: 94%;
+    border-radius: 20px 0px 0px 20px;
     margin: 5px;
 }
 
@@ -512,8 +518,8 @@ aside a
     background-position: center;
     background-size: cover;
     width: 208px;
-    height: 150px;
-    border-radius: 25px 0px 0px 25px;
+    height: 93%;
+    border-radius: 20px 0px 0px 20px;
     margin: 5px;
 }
 
@@ -523,8 +529,8 @@ aside a
     background-position: center;
     background-size: cover;
     width: 154px;
-    height: 150px;
-    border-radius: 25px 0px 0px 25px;
+    height: 94%;
+    border-radius: 20px 0px 0px 20px;
     margin: 5px;
 }
 
@@ -555,24 +561,30 @@ aside a
 {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
 }
 
 #panneau_activite_1
 {
     box-shadow: 0px 0px 10px #bbbbbb;
     border-radius: 25px 25px 25px 25px;
+    margin-bottom: 35px;
+    margin: 0px 13px 17px 13px;
 }
 
 #panneau_activite_2
 {
     box-shadow: 0px 0px 10px #bbbbbb;
     border-radius: 25px 25px 25px 25px;
+    margin: 0px 13px 17px 13px;
 }
 
 #panneau_activite_3
 {
     box-shadow: 0px 0px 10px #bbbbbb;
     border-radius: 25px 25px 25px 25px;
+    margin: 0px 13px 17px 13px;
 }
 
 
@@ -580,18 +592,21 @@ aside a
 {
     box-shadow: 0px 0px 10px #bbbbbb;
     border-radius: 25px 25px 25px 25px;
+    margin: 0px 13px 17px 13px;
 }
 
 #panneau_activite_5
 {
     box-shadow: 0px 0px 10px #bbbbbb;
     border-radius: 25px 25px 25px 25px;
+    margin: 0px 13px 17px 13px;
 }
 
 #panneau_activite_6
 {
     box-shadow: 0px 0px 10px #bbbbbb;
     border-radius: 25px 25px 25px 25px;
+    margin: 0px 13px 17px 13px;
 }
 
 #panneau_activite_img_1
@@ -680,16 +695,11 @@ aside a
     padding-left: 10px;
 }
 
-.grands_panneaux img
+.box_activite
 {
-    height: 500px;
-    
+    display: flex;
 }
 
-.petits_panneaux img
-{
-    height: 150px;
-}
 
 .colone_petits_panneaux
 {
@@ -737,3 +747,145 @@ footer h3
 {
     margin-bottom: 25px;
 }
+
+
+@media screen and (max-width: 1500px)
+{
+    article
+    {
+        width: 55%;
+    }
+
+    aside
+    {
+        width: 32%;
+    }
+
+    .panneau_aside
+    {
+        height: 100%;
+    }
+}
+
+
+
+@media screen and (max-width: 1200px)
+{
+    .panneau_article
+    {
+        width: 70%;
+    }
+
+    article
+    {
+        width: 50%;
+    }
+
+    aside
+    {
+        width: 37%;
+    }
+}
+
+@media screen and (max-width: 990px)
+{
+    footer
+    {
+        flex-direction: column;
+        justify-content: center;
+        padding: 50px 0px 50px 50px;
+    }
+
+    #a_propos
+    {
+        margin-bottom: 20px;
+    }
+
+    #nos_hebergements
+    {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 910px)
+{
+    section
+    {
+        flex-direction: column-reverse;
+    }
+
+    aside
+    {
+        margin-bottom: 25px;
+        width: auto;
+        height: auto;
+    }
+
+    article
+    {
+        width: auto;
+    }
+
+    .panneau_aside
+    {
+        height: 200px;
+    }
+    
+    #panneau_aside_img_1
+    {
+        width: 220px;
+    }
+
+    #panneau_aside_img_2
+    {
+        width: 220px;
+    }
+
+    #panneau_aside_img_3
+    {
+        width: 220px;
+    }
+}
+
+/*
+@media screen and (max-width: 688px)
+
+{
+    main
+    {
+        width: 100%;
+        margin: 0;
+    }
+
+    body
+    {
+        margin: 0;
+    }
+
+    aside
+    {
+        border: none;
+        border-radius: 0px;
+    }
+
+    article
+    {
+        border: none;
+        border-radius: 0px;
+        background-color: white;
+        width: 100%;
+    }
+
+    #panneau_article
+    {
+        width: 90%;
+        margin: 0;
+    }
+
+    #boutons_filtres
+    {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}
+*/
