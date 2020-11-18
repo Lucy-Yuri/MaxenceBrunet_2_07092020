@@ -264,20 +264,20 @@ form p
     flex-wrap: wrap;
 }
 
-button
+.button
 {
     background-color: white;
     border: none;
     padding-bottom: 15px;
 }
 
-button i
+.button i
 {
     font-size: 1.2em;
     color: #0065FC;
 }
 
-button p
+.button span
 {
     margin-left: 10px;
     font-weight: bold;
@@ -286,7 +286,7 @@ button p
     align-self: center;
 }
 
-button a
+.button
 {
     display: flex;
     text-decoration: none;
@@ -296,7 +296,7 @@ button a
     height: 43px;
 }
 
-button a:hover
+.button:hover
 {
     background-color: #DEEBFF;
 }
@@ -339,7 +339,7 @@ button a:hover
 
 /* Section */
 
-section
+#hebergements_et_populaires
 {
     display: flex;
     justify-content: space-between;
@@ -857,7 +857,7 @@ footer h3
 
 @media screen and (max-width: 910px)
 {
-    section
+    #hebergements_et_populaires
     {
         flex-direction: column-reverse;
     }
