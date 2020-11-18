@@ -92,6 +92,7 @@ header
     color: #494949;
     font-weight: bold;
     padding-top: 47px;
+    font-size: 1.1em;
 }
 
 #link_activites
@@ -105,7 +106,8 @@ header
     color: #494949;
     font-weight: bold;
     padding-top: 47px;
-
+    font-size: 1.1em;
+    margin-left: 35px;
 }
 
 
@@ -156,6 +158,8 @@ header p
     grid-column: 5;
     justify-content: center;
     padding-top: 35px;
+    font-size: 1.1em;
+    margin-left: 45px;
 }
 
 /* Recherche */
@@ -268,7 +272,6 @@ form p
 {
     background-color: white;
     border: none;
-    padding-bottom: 15px;
 }
 
 .button i
@@ -279,11 +282,17 @@ form p
 
 .button span
 {
-    margin-left: 10px;
+
     font-weight: bold;
     color: #181818;
     font-size: 1.2em;
     align-self: center;
+}
+
+.text_button
+{
+    margin-left: 10px;
+    font-size: 1.1em;
 }
 
 .button
@@ -293,7 +302,8 @@ form p
     border: 2px solid #e2e2e2;
     border-radius: 50px;
     padding-right: 15px;
-    height: 43px;
+    height: 55px;
+    margin: 0px 15px 15px 0px;
 }
 
 .button:hover
@@ -308,13 +318,13 @@ form p
     align-items: center;
     background-color: #DEEBFF;
     border-radius: 50px;
-    width: 50px;
-
+    width: 60px;
+    height: 57px;
 }
 
 #animaux
 {
-    width: 238px;
+    width: 242px;
 }
 
 /* Info */
@@ -925,6 +935,7 @@ footer h3
 
         padding-bottom: 30px;
         padding-top: 43px;
+        
     }
 
     #link_activites
@@ -939,6 +950,12 @@ footer h3
 
         padding-bottom: 30px;
         padding-top: 43px;
+        margin-left: 0px;
+    }
+
+    #inscription
+    {
+        margin-left: 0px;
     }
 
 
@@ -1006,7 +1023,7 @@ footer h3
         border: 1px solid #0065FC;
         border-radius: 20px 20px 20px 20px;
         position: absolute;
-        right: 6%;
+        right: 7%;
 
     }
 
